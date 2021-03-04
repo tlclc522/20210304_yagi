@@ -1,5 +1,6 @@
 <template>
-  <header id="top-header">
+  <div id="firstview">
+      <header id="top-header">
         <div class="flex">
           <h1 class="header-logo">estra inc.</h1>
           <nav class="header-nav">
@@ -18,7 +19,19 @@
       <span></span>
       <span></span>
     </div>
-  </header>
+      </header>
+      <p class="catchcopy">機械ではできない仕事を</p>
+      <div class="news flex">
+        <div class="news-content">
+          <p class="news_date">2019/01/01</p>
+          <p class="news_title">
+            ニュースタイトルがここには入ります。3月の決算報告書
+          </p>
+        </div>
+        <div class="news-icon">news</div>
+      </div>
+    </div>
+    
 </template>
 
 <style scoped>

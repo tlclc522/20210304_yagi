@@ -35,4 +35,23 @@
   color: #fff;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 16px;
+}
+
+@media screen and (max-width:768px){
+  .header-nav {
+    display: none;
+  }
+}
+
 </style>
