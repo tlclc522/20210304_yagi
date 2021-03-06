@@ -101,6 +101,10 @@ export default {
   color: #fff;
 }
 
+.menu-content {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   #hamburger {
     width: 40px;

@@ -28,6 +28,11 @@
 .top-footer {
   background: #000;
   text-align: center;
+  color: #fff;
+}
+
+.top-footer .header-nav li a {
+    color: #fff;
 }
 
 .top-footer small {
